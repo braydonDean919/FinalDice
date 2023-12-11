@@ -360,7 +360,7 @@ class Game (simpleGE.Scene):
                 self.selected[i].setSize(100,100)
                 
             if self.selected[i].value == 6:
-                self.dice[i].setImage("Dice6H.png")
+                self.selected[i].setImage("Dice6H.png")
                 self.selected[i].setSize(100,100)
     def switchBack(self):
         for i in range(len(self.dice)):
